@@ -34,11 +34,11 @@ def create_triples (count, max):
 
 # Denormalize numbers
 def denormalize (value, max):
-    return value * float (max * 2.0)
+    return value * float (max)
 
 # Normalize number to range
 def normalize (value, max):
-    return value.astype ('float') / float (max * 2.0)
+    return value.astype ('float') / float (max)
 
 # Model create
 def model_create ():
