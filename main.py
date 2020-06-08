@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from tensorflow.keras.models import Sequential, load_model
 from tensorflow.keras.layers import Dense
 from random import randint
